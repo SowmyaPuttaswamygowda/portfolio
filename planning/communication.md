@@ -1,26 +1,14 @@
 # Communication
 
-## Group Rules
-
-<!-- any general rules you'd like to set for your group? -->
-
----
-
-## Communication Schedule
-
-| Day | How | The topic of discussion |
-| --- | :-: | ----------------------- |
-|     |     |                         |
+As project is individual, there is no issue with communication
 
 ## Communication Channels
 
 how often will we get in touch on each channel, and what we will discuss there:
 
-- **Issues**:
-- **Pull Requests**:
-- **GitHub Discussions**
-- **Slack/Discord**:
-- **Video Calls**:
+- **Issues**: For each stage issues will be created
+- **Pull Requests**: After the completion of the each project stage (Planning,
+  development, etc.. )
 
 ---
 
@@ -28,17 +16,13 @@ how often will we get in touch on each channel, and what we will discuss there:
 
 ### Availability for calling/messaging
 
-| Day    | Monday  | Tuesday | Wednesday | Thursday | Friday  | Saturday | Sunday  |
-| ------ | :-----: | :-----: | :-------: | :------: | :-----: | :------: | :-----: |
-| _name_ | 13 - 20 | 13 - 20 |  13 - 20  | 13 - 20  | 13 - 20 | 13 - 20  | 13 - 20 |
+| Day    | Monday | Tuesday | Wednesday | Thursday | Friday |
+| ------ | :----: | :-----: | :-------: | :------: | :----: |
+| Sowmya | 9 - 5  |  9 - 5  |   9 - 5   |  9 - 5   | 9 - 5  |
 
 ### How many hours everyone has per day
 
-- name: _5h_; extra comments?
-- name: _6h_;
-- name: _5h_;
-- name: _4h_;
-- name: _3h_;
+- Sowmya: 7 h ;
 
 ## Asking for Help
 

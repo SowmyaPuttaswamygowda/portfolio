@@ -9,22 +9,21 @@ create your own!
 
 > these are necessary for basic usability
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+- [ ] As a user I want to see good user interface so that it looks apealing
+- [ ] Each topic should be categorized separatly so that it gives good
+      readabality
 
-## Should-Haves
+## Should-HavesS
 
 > these will complete the user experience, but are not necessary
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+- [ ] As a user I want to interactive pages to give good user experience
+- [ ] Content of the page should be detailed to give completness
+- [ ] should have image
 
 ## Could-Haves
 
 > would be really cool ... if there's time
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+- [ ] As a user, I want to get in touch with someone quickly there is a contact
+      form above the footer.

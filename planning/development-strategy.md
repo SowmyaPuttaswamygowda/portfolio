@@ -4,52 +4,36 @@
 
 ---
 
-## Setup
+## 0.Setup
 
-<!-- what code do you need just to open the project? this might include:
-  - boilerplate code (https://brandlitic.com/what-is-boilerplate-code/)
-  - loading program data
-  - rendering the initial user interface
--->
+- Create issues
+- Create a new a repo from the given template
+- Clone the repo
+- Created a branch
 
----
+## 1.Title
 
-<!-- copy this section once for each must-have user story -->
+- As a user,I need to see the title of the page
+- This branch is merged to master branch after completion.
 
-## user story
+## HTML
 
-<!-- each issue created from this section will have the `for: user story` label -->
+- Add header tag
+- Add h1 for the page title
 
-> "as a ... i can ... so that ..."
+## CSS
 
-<!-- write any extra notes or description -->
+- Add class "logo image'
+- Add class "centered item" to the header
 
-<!-- describe the tasks to build this user story
-  these will have the `type: logic` label, for example
-  not all projects will have all types of tasks
-  and these are not the only possible types, just some suggestions
--->
+## 2.logos
 
-### Logic: user story
+### As a user, i want to see the logos of the page
 
-- a _logic_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+## 3. Navigation links
 
-### Interface: user story
+### As a user i want to see the navigation links
 
-- an _interface_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+## 4. Skill
 
-### Interaction: user story
-
-- an _interaction_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
-
-### Documentation: user story
-
-- a _documentation_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+### As a user i want to see your skill sections
