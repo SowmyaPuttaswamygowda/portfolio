@@ -21,7 +21,8 @@
     "completness",
     "Sowmya",
     "Evere",
-    "puttaswamygowda"
+    "puttaswamygowda",
+    "lable"
   ],
   "ignorePaths": [
     "node_modules/**",
