@@ -1,0 +1,196 @@
+@import url("../index.html");
+@import url("../pages/about.html");
+@import url("../pages/skill.html");
+@import url("../pages/contact.html");
+
+.tabs {
+  position: relative;
+  min-height: 500px;
+  clear: both;
+  margin: 22px 0;
+}
+
+.tab {
+  float: left;
+}
+
+.tab label {
+  background-color: bisque;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-left: -1px;
+  position: relative;
+  left: 1px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tab [type="radio"] {
+  display: none;
+}
+
+.content {
+  position: absolute;
+  margin: 8px 0 0;
+
+  /* top : 28px;
+  left: 0;
+  right: 0; 
+  bottom: 0px; */
+
+  height: 450px;
+  width: 1410px;
+  background: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+
+  /* background-color: rgb(160 136 136); */
+
+  border-radius: 0;
+  font-family: sans-serif;
+  line-height: 1;
+  color: rgb(30 48 80);
+  background-image: url("../img/about.jpg");
+}
+
+.content-skills {
+  position: absolute;
+  background: white;
+  margin: 8px 0 0;
+
+  /* top : 28px;
+  left: 0;
+  right: 0; 
+  bottom: 0px; */
+  left: 0;
+  height: 450px;
+  width: 1410px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  font-family: sans-serif;
+  line-height: 1;
+  color: rgb(246 244 245);
+  background-image: url("../img/skills1.jpg");
+}
+
+.content-contact {
+  background-image: url("../img/contact.jpg");
+  position: absolute;
+  margin: 8px 0 0;
+  left: 0;
+
+  /* top : 28px;
+  right: 0; 
+  bottom: 0px; */
+
+  height: 450px;
+  width: 1410px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: rgb(219 228 231);
+  border-radius: 0;
+  font-family: sans-serif;
+  line-height: 1;
+  color: rgb(30 48 80);
+}
+
+[type="radio"]:checked ~ label {
+  background: white;
+  border-bottom: 1px solid white;
+  z-index: 2;
+}
+
+[type="radio"]:checked ~ label ~ .content {
+  z-index: 1;
+}
+
+[type="radio"]:checked ~ label ~ .content-skills {
+  z-index: 1;
+}
+
+h1 {
+  font-family: cursive;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(176 84 132);
+}
+
+.main-div {
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url("../img/portfoliobackground1.jpg");
+  border-style: ridge;
+  border-color: darkred;
+}
+
+footer {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} */
+.div-main {
+  font-family: sans-serif;
+  color: blueviolet;
+  font-size: large;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+.fa-linkedin {
+  background: #1565c0;
+  width: 10px;
+  color: white;
+
+  /* box-shadow: 0 0 10px rgba(0 0 0 0.3); */
+}
+
+.message1 {
+  border-color: black;
+  border-radius: 5px;
+}
+
+.div-main2 {
+  font-family: cursive;
+  font-size: 30px;
+}
+
+.head-table {
+  width: 75%;
+  font-family: cursive;
+  font-size: 30px;
+}
+
+.table-skills {
+  padding: 10px;
+}
+
+.contact-table {
+  width: 90%;
+  padding: 30px;
+}
+
+.text-message {
+  width: 200px;
+  height: 100px;
+}
