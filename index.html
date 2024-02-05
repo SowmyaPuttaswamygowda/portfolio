@@ -1,96 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio</title>
-  <link rel="stylesheet" href="./styles/index.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-</head>
-
-<body>
-  <div class="main">
-    <h1>Portfolio</h1>
-    <table>
-      <tbody>
-        <tr>
-          <th scope="col" class="head-table">
-            <p>Sowmya</p>
-            <p>Junior front end developer</p>
-          </th>
-          <th scope="col">
-            <img src="sowmya.jpg" alt="my image" width="250" height="300" />
-          </th>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-
-  <div class="tabs">
-    <div class="tab">
-      <input type="radio" id="tab-1" name="tab-group-1" checked />
-      <label for="tab-1">About</label>
-
-      <div class="content">
-        <h2>About me</h2>
-        <p>
-          My name is Sowmya .I'm passionate about creating beautiful and
-          functional websites. I have a strong foundation in HTML, CSS, and
-          JavaScript, and I'm always looking for new challenges
-        </p>
-        <h3>Education:</h3>
-        <ul>
-          <li>
-            Graduate in Science with major in Physics, Chemistry and
-            Mathematics
-          </li>
-          <li>Post Graduate in Chemistry</li>
-        </ul>
-        <h3>Personality:</h3>
-        <p class="about_para1">
-          Creative person with willingness to learn new things..
-        </p>
-        <p>
-          Skilled problem solver and a team player. I enjoy working with other
-          team members.
-        </p>
-
-        <ul>
-          <li>Have work experience as Teacher of Mathematics and Science</li>
-          <li>Passionate about creating user-friendly designs</li>
-          <li>Excellent communication and teamwork skills</li>
-        </ul>
-      </div>
+  <body>
+    <div class="main">
+      <h1>Portfolio</h1>
+      <table>
+        <tbody>
+          <tr>
+            <th scope="col" class="head-table">
+              <p>Sowmya</p>
+              <p>Junior front end developer</p>
+            </th>
+            <th scope="col">
+              <img src="sowmya.jpg" alt="my image" width="250" height="300" />
+            </th>
+          </tr>
+        </tbody>
+      </table>
     </div>
-    <div class="tab">
-      <input type="radio" id="tab-2" name="tab-group-1" />
-      <label for="tab-2">Skills</label>
 
-      <div class="content-skills">
-        <h2>Skills</h2>
-        <div class="project">
-          <h2>Project</h2>
-          <h3>Basic Calculator</h3>
+    <div class="tabs">
+      <div class="tab">
+        <input type="radio" id="tab-1" name="tab-group-1" checked />
+        <label for="tab-1">About</label>
+
+        <div class="content">
+          <h2>About me</h2>
+          <p>
+            My name is Sowmya .I'm passionate about creating beautiful and
+            functional websites. I have a strong foundation in HTML, CSS, and
+            JavaScript, and I'm always looking for new challenges
+          </p>
+          <h3>Education:</h3>
           <ul>
             <li>
-              Developed my first project for HYF using HTML and CSS. <br />
+              Graduate in Science with major in Physics, Chemistry and
+              Mathematics
             </li>
+            <li>Post Graduate in Chemistry</li>
           </ul>
-          <h3>Computer skills</h3>
-          <table>
+          <h3>Personality:</h3>
+          <p class="about_para1">
+            Creative person with willingness to learn new things..
+          </p>
+          <p>
+            Skilled problem solver and a team player. I enjoy working with other
+            team members.
+          </p>
+
+          <ul>
+            <li>Have work experience as Teacher of Mathematics and Science</li>
+            <li>Passionate about creating user-friendly designs</li>
+            <li>Excellent communication and teamwork skills</li>
+          </ul>
+        </div>
+      </div>
+      <div class="tab">
+        <input type="radio" id="tab-2" name="tab-group-1" />
+        <label for="tab-2">Skills</label>
+
+        <div class="content-skills">
+          <h2>Skills</h2>
+          <div class="project">
+            <h2>Project</h2>
+            <h3>Basic Calculator</h3>
+            <ul>
+              <li>
+                Developed my first project for HYF using HTML and CSS. <br />
+              </li>
+            </ul>
+            <h3>Computer skills</h3>
+            <table>
+              <tbody>
+                <tr class="table-skills">
+                  <th scope="col">
+                    <img
+                      src="./img/htmllogo.png"
+                      alt="html"
+                      width="100px"
+                      height="100px"
+                    />
+                  </th>
+                  <th scope="col">
+                    <img
+                      src="./img/csslogo.png"
+                      alt="css"
+                      width="100px"
+                      height="100px"
+                    />
+                  </th>
+                  <th scope="col">
+                    <img
+                      src="./img/githublogo.png"
+                      alt="github"
+                      width="100px"
+                      height="100px"
+                    />
+                  </th>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab">
+        <input type="radio" id="tab-3" name="tab-group-1" />
+        <label for="tab-3">Contact</label>
+
+        <div class="content-contact">
+          <table class="contact-table">
             <tbody>
-              <tr class="table-skills">
+              <tr>
                 <th scope="col">
-                  <img src="./img/htmllogo.png" alt="html" width="100px" height="100px" />
+                  <p>
+                    <a href="#" class="fa fa-envelope">Mail</a>
+                    sowmya.ramya.cp@gmail.com
+                  </p>
+                  <p><a href="#" class="fa fa-phone">Phone</a>123-456-7890</p>
+                  <p>
+                    <a href="#" class="fa fa-address-book">Address </a> Evere,
+                    Brussels,Belgium
+                  </p>
+                  <p>
+                    <a href="#" class="fa fa-linkedin">Linkedin </a>:
+                    sowmya-puttaswamygowda-2abb79260
+                  </p>
                 </th>
                 <th scope="col">
-                  <img src="./img/csslogo.png" alt="css" width="100px" height="100px" />
-                </th>
-                <th scope="col">
-                  <img src="./img/githublogo.png" alt="github" width="100px" height="100px" />
+                  <p>Your contact details</p>
+                  <div class="message1">
+                    <!-- <form> -->
+                    <span for="name">Name:</span>
+                    <input type="text" /> <br /><br />
+                    <span for="mail">Mail Address:</span>
+                    <input type="text" /><br /><br />
+                    <span for="message">Type your message</span>
+                    <input
+                      type="text"
+                      id="message"
+                      class="text-message"
+                    /><br /><br />
+                    <!-- <input type="button" id="submit"> -->
+                    <button type="button">Submit</button>
+                    <!-- </form> -->
+                  </div>
                 </th>
               </tr>
             </tbody>
@@ -99,54 +168,8 @@
       </div>
     </div>
 
-    <div class="tab">
-      <input type="radio" id="tab-3" name="tab-group-1" />
-      <label for="tab-3">Contact</label>
-
-      <div class="content-contact">
-        <table class="contact-table">
-          <tbody>
-            <tr>
-              <th scope="col">
-                <p>
-                  <a href="#" class="fa fa-envelope">Mail</a>
-                  sowmya.ramya.cp@gmail.com
-                </p>
-                <p><a href="#" class="fa fa-phone">Phone</a>123-456-7890</p>
-                <p>
-                  <a href="#" class="fa fa-address-book">Address </a> Evere,
-                  Brussels,Belgium
-                </p>
-                <p>
-                  <a href="#" class="fa fa-linkedin">Linkedin </a>:
-                  sowmya-puttaswamygowda-2abb79260
-                </p>
-              </th>
-              <th scope="col">
-                <p>Your contact details</p>
-                <div class="message1">
-                  <!-- <form> -->
-                  <span for="name">Name:</span>
-                  <input type="text" /> <br /><br />
-                  <span for="mail">Mail Address:</span>
-                  <input type="text" /><br /><br />
-                  <span for="message">Type your message</span>
-                  <input type="text" id="message" class="text-message" /><br /><br />
-                  <!-- <input type="button" id="submit"> -->
-                  <button type="button">Submit</button>
-                  <!-- </form> -->
-                </div>
-              </th>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </div>
-
-  <footer>
-    <p>&copy; 2024 Sowmya</p>
-  </footer>
-</body>
-
+    <footer>
+      <p>&copy; 2024 Sowmya</p>
+    </footer>
+  </body>
 </html>

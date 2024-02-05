@@ -22,7 +22,8 @@
     "Sowmya",
     "Evere",
     "puttaswamygowda",
-    "lable"
+    "lable",
+    "portfoliobackground"
   ],
   "ignorePaths": [
     "node_modules/**",
@@ -30,6 +31,7 @@
     "package-lock.json",
     "**/*.mp4",
     "**/*.svg",
-    "accessibility_report"
+    "accessibility_report",
+    "portfoliobackground"
   ]
 }
